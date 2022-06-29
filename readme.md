@@ -23,7 +23,7 @@ The presented algorithmus supports:
 - If the objects in the image are black, and the background is white, we need to invert the image so that white pixels become black and black pixels become white. Otherwise, we leave the image as-is.
 - Detect the contours 
 
-- ![](img_test.png) ![](img_test_right.png)
+![](img_test.png) ![](img_test_right.png)
 
 ## Dependencies
 
