@@ -13,11 +13,17 @@ The presented algorithmus supports:
 ## Object Detection based on Color 
 - Read a color image
 - Convert the image to grayscale 
+
 ![](img_test2.png) ![](img_test2_r.png)
+
 - Convert the image to binary (i.e. black and white only) using Otsu’s method or a fixed threshold that you choose.
+
 ![](bw_img_left.png) ![](bw_img_r.png)
+
 - If the objects in the image are black, and the background is white, we need to invert the image so that white pixels become black and black pixels become white. Otherwise, we leave the image as-is.
-- Detect the contours ![](img_test.png) ![](img_test_right.png)
+- Detect the contours 
+
+- ![](img_test.png) ![](img_test_right.png)
 
 ## Dependencies
 
