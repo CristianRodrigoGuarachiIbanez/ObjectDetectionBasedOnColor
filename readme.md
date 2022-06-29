@@ -40,6 +40,10 @@ Now, go into the folder
 
     "/ObjectDetectionBasedOnColor
 
-There, perform the following commands on the terminal:
+The implementation can be compiled in C++ with the file main.cpp
+    
+    g++ main.cpp objectDetector.cpp -o image `pkg-config --cflags --libs opencv` 
+
+Or, it could be compiled with cython. In that case, perform the following commands on the terminal:
 
     python3.? setup.py build_ext --inplace
